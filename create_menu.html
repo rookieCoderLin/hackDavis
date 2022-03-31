@@ -8,19 +8,74 @@
     <title>Document</title>
     <style>
         body {
-            background-color: #ffd0a4;
-            /* 针对不支持渐变的浏览器 */
-            background-image: linear-gradient(to right, #ffd0a4, white);
+            background-color: #fcecdd;
+            /* background-image: linear-gradient(#ffd6ad, white); */
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #fea82f;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        /* 当鼠标悬停时把链接颜色更改为 #111（黑色） */
+        
+        li a:hover {
+            background-color: #ffc288;
+        }
+        
+        .active {
+            background-color: #4CAF50;
+        }
+        
+        .button {
+            background-color: #4CAF50;
+            /* 绿色 */
+            border: none;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        
+        .button4 {
+            border-radius: 12px;
+        }
+        
+        .button4:hover {
+            background-color: #fafafa;
+            /* Green */
+            color: #4CAF50;
         }
     </style>
 </head>
 
 <body>
-    <h5>Menu Creation</h5>
-    <hr />
-    <h1>Choose your or create your own menu:</h1>
-    <div id="grad1"></div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#creation">Menu Creation</a></li>
+    </ul>
 
+    <h1>Choose your or create your own menu:</h1>
+    <button class="button button4">Menu1</button>
+    <button class="button button4">Create a new menu</button>
 </body>
 
 </html>
