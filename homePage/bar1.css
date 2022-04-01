@@ -1,9 +1,14 @@
-.ul {
+/*background color*/
+body {
+    background: linear-gradient(90deg, rgb(247, 202, 165), white);
+}
+
+.bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: white; 
 }
 
 .li {
@@ -12,12 +17,14 @@
 
 .li a {
     display: block;
-    color: #fb6c55;
+    color: black;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 14px 40px;
     text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
 }
 
 
@@ -29,4 +36,24 @@
 
 .active {
     background-color: #4CAF50;
+}
+
+.head {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    height: 50%;
+    font-weight: 500;
+    font-size: 70px;
+    padding-top: 15%;
+    margin-left: 3%;
+    padding-bottom: 0px;
+}
+
+.sent{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 3%;
+    margin-top: 16px;
+    padding-bottom: 1%;
 }
