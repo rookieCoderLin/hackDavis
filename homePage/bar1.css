@@ -1,0 +1,32 @@
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.li {
+    float: right;
+}
+
+.li a {
+    display: block;
+    color: #fb6c55;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+
+/* 当鼠标悬停时把链接颜色更改为 #111（黑色） */
+
+.li a:hover {
+    background-color: #f5f3f0;
+}
+
+.active {
+    background-color: #4CAF50;
+}
