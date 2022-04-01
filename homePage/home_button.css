@@ -1,0 +1,24 @@
+.button {
+    background-color: #5b7745;
+    /* 绿色 */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 80px;
+    cursor: pointer;
+}
+
+.button4 {
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.button4:hover {
+    background-color: #fafafa;
+    /* Green */
+    color: #5b7745;
+}
