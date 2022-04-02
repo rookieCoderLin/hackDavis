@@ -1,4 +1,14 @@
 .body {
-    background-color: #fcecdd;
+    margin:0;
+    background: linear-gradient(90deg, rgb(247, 202, 165), white);
     /* background-image: linear-gradient(#ffd6ad, white); */
+
+}
+
+.tit {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    font-size: 35px;
+    font-weight: normal;
 }
