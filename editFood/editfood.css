@@ -1,0 +1,98 @@
+body {
+    margin:0;
+    background: linear-gradient(90deg, rgb(247, 202, 165), white);
+    /* background-image: linear-gradient(#ffd6ad, white); */
+
+}
+
+.ull {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.barli{
+    display: block;
+    float: right;
+}
+
+.barli a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.barli:hover {
+    background-color: rgb(236, 234, 234);
+}
+p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 16px;
+    width:200;
+    height:300;
+    
+}
+
+.textbox{
+    float:left;
+    text-align: justify;
+    padding-left:3%;
+    height: 200px;
+    width: 40%;
+}
+
+.image{
+    float:right;
+
+}
+h1 {
+    padding-top: 3%;
+    padding-left: 3%;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+
+.lii li{
+    margin-left: 3%;
+    display:inline;
+}
+.buttonm{
+    display: block;
+    clear:both;
+}
+
+button {
+    padding-left:16px;
+
+    background-color: rgb(216, 97, 97);
+    /* 绿色 */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    border-radius: 30px;
+    margin-left: 3%;
+}
+
+button:hover {
+    background-color: #fafafa;
+    /* Green */
+    color: rgb(216, 97, 97);
+}
