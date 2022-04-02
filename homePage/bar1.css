@@ -1,5 +1,6 @@
 /*background color*/
 body {
+    margin:0;
     background: linear-gradient(90deg, rgb(247, 202, 165), white);
 }
 
