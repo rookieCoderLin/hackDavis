@@ -14,24 +14,24 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background-color: #fea82f;
+            background-color: white;
         }
         
         li {
-            float: left;
+            float: right;
         }
         
         li a {
             display: block;
-            color: white;
+            color: black;
             text-align: center;
-            padding: 14px 16px;
+            padding: 14px 40px;
             text-decoration: none;
         }
         /* 当鼠标悬停时把链接颜色更改为 #111（黑色） */
         
         li a:hover {
-            background-color: #ffc288;
+            background-color: rgb(236, 234, 234);
         }
         
         .active {
@@ -42,13 +42,21 @@
 
 <body class="body">
     <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#creation">Menu Creation</a></li>
+        <li class="li"><a href="#signup">Get Start</a></li>
+        <i class="fa-solid fa-burger"></i>
+        <li class="li"><a href="#login">Sign in</a></li>
+        <li class="li"><a href="#tutorial">Tutorial</a></li>
+        <li class="li"><a href="#contact">Contact</a></li>
+        <li class="li"><a href="#about">About</a></li>
     </ul>
 
-    <h1>Choose your or create your own menu:</h1>
+    <div class="tit">Choose your or create your own menu:</div>
+    <div class="buttons">
     <button class="button button4">Menu1</button>
+    <button class="button button4">Menu2</button>
+    <button class="button button4">Menu3</button>
     <button class="button button4">Create a new menu</button>
+    </div>
 </body>
 
 </html>
