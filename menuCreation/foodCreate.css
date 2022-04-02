@@ -1,0 +1,42 @@
+body {
+    margin:0;
+    background:  linear-gradient(90deg, rgb(247, 202, 165), white);
+}
+
+.tit {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.button {
+    background-color: rgb(216, 97, 97);
+    /* 绿色 */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button4 {
+    border-radius: 30px;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.button4:hover {
+    background-color: #fafafa;
+    /* Green */
+    color: rgb(216, 97, 97);
+}
+
+.buttons {
+    text-align: center;
+}
