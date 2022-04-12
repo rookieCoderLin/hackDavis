@@ -1,8 +1,29 @@
 body {
-    margin:0;
+    margin: 0;
     background: linear-gradient(90deg, rgb(247, 202, 165), white);
+    background-image: url(bgimg.png);
     /* background-image: linear-gradient(#ffd6ad, white); */
+}
 
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 30px;
+}
+
+#box2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 30px;
+    justify-content: center;
 }
 
 .ull {
@@ -13,7 +34,7 @@ body {
     background-color: white;
 }
 
-.barli{
+.barli {
     display: block;
     float: right;
 }
@@ -33,48 +54,51 @@ body {
 .barli:hover {
     background-color: rgb(236, 234, 234);
 }
-p1{
-    font-family: Arial, Helvetica, sans-serif;
+
+p {
+    font-family: 'Lexend', sans-serif;
     font-weight: 500;
-    font-size: 20px;
-    margin-top: 16px;
-    width:200;
-    height:300;
-    
+    font-size: 25px;
 }
 
-.textbox{
-    float:left;
-    text-align: justify;
-    padding-left:3%;
+.textbox {
+    display: flex;
+    justify-content: left;
+    margin-right: 20%;
+    margin-top: 30px;
+}
+
+.image {
+    float: center;
+    width: 200px;
     height: 200px;
-    width: 40%;
 }
 
-.image{
-    float:right;
-
-}
 h1 {
+    font-family: 'Lexend', sans-serif;
     padding-top: 3%;
     padding-left: 3%;
-    font-size: 35px;
-    font-weight: normal;
+    font-size: 45px;
+    font-weight: bold;
 }
 
-
-.lii li{
+.lii li {
     margin-left: 3%;
-    display:inline;
+    display: inline;
 }
-.buttonm{
+
+.lii {
+    font-size: 25px;
+    font-family: 'Lexend', sans-serif;
+}
+
+.buttonm {
     display: block;
-    clear:both;
+    clear: both;
 }
 
 button {
-    padding-left:16px;
-
+    padding-left: 16px;
     background-color: rgb(216, 97, 97);
     /* 绿色 */
     border: none;
@@ -86,9 +110,9 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-
     border-radius: 30px;
     margin-left: 3%;
+    margin-top: 30px;
 }
 
 button:hover {
