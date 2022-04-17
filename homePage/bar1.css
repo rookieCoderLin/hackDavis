@@ -5,7 +5,6 @@ body {
     background: linear-gradient(1900deg, #febd2e, #f8ebca);
     display: flex;
     flex-direction: column;
-    
 }
 
 .bar {
@@ -59,7 +58,16 @@ body {
     font-family: 'Lexend', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    margin-left: 5%;
+    margin-left: 3.3%;
     margin-top: 16px;
     padding-bottom: 1%;
+}
+
+.left {
+    margin-left: 5%;
+}
+
+.bot {
+    padding-top: 5%;
+    padding-bottom: 4%;
 }
