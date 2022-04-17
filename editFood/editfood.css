@@ -94,14 +94,9 @@ h1 {
     font-family: 'Lexend', sans-serif;
 }
 
-.buttonm {
-    display: block;
-    clear: both;
-}
-
 button {
     padding-left: 16px;
-    background-color: rgb(216, 97, 97);
+    background-color: #5b7745;
     /* 绿色 */
     border: none;
     color: white;
@@ -113,7 +108,7 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 30px;
-    margin-left: 12%;
+    margin-left: 2%;
     margin-top: 30px;
     font-family: 'Lexend', sans-serif;
 }
@@ -121,5 +116,5 @@ button {
 button:hover {
     background-color: #fafafa;
     /* Green */
-    color: rgb(216, 97, 97);
+    color: #5b7745;
 }
